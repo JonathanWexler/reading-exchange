@@ -28,6 +28,10 @@ gem 'figaro'
 gem 'koala'
 gem 'omniauth-facebook'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+gem 'awesome_print'
+gem 'amazon-ecs'
+
+gem 'worldcat'
 
 group :development, :test do
   gem 'byebug'

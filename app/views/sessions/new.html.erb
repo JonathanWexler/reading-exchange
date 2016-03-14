@@ -1,0 +1,14 @@
+<h1>Book Exchange</h1>
+<% if current_user%>
+<%= "Signed in as #{current_user.name}" %>
+<%= link_to "Sign out", signout_path %>
+<%else%>
+<%= link_to "Sign in With Facebook", 'auth/facebook' %>
+<% end%>
+
+<br>
+<br>
+<br>
+<% @titles.each do |t| %>
+<%= t %> <br>
+<% end %>
