@@ -205,6 +205,7 @@ DEPENDENCIES
   koala
   omniauth-facebook
   rails (= 4.2.5)
+  ruby-hmac (~> 0.3)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   sendgrid

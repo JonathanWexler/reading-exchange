@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get 'auth/:provider/callback' => 'sessions#create' 
   get 'auth/failure' => redirect('/')
   get 'signout' =>'sessions#destroy', as: 'signout'
+  post 'search' => 'sessions#new', as: :find_book
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog  #view'

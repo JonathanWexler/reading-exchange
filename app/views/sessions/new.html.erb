@@ -8,7 +8,15 @@
 
 <br>
 <br>
+<%= form_tag find_book_path do %>
+<%= text_field_tag :query %>
+<%= submit_tag :search %>
+<%end%>
 <br>
 <% @titles.each do |t| %>
 <%= t %> <br>
 <% end %>
+
+<br>
+
+<% @response.items[1].inspect%>

@@ -30,6 +30,7 @@ gem 'omniauth-facebook'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'awesome_print'
 gem 'amazon-ecs'
+gem 'ruby-hmac', '~> 0.3'
 
 gem 'worldcat'
 
